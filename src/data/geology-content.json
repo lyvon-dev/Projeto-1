@@ -1,0 +1,32 @@
+{
+  "eras": [
+    { "name": "Pré-Cambriano", "period": "4.6 bi — 541 mi anos", "color": "#6b2fa0", "icon": "🌋", "desc": "Formação da Terra, surgimento da vida unicelular." },
+    { "name": "Paleozoico", "period": "541 — 252 mi anos", "color": "#2a7a62", "icon": "🦎", "desc": "Explosão Cambriana, primeiros peixes, plantas terrestres." },
+    { "name": "Mesozoico", "period": "252 — 66 mi anos", "color": "#c45a2c", "icon": "🦕", "desc": "Era dos dinossauros, Pangeia se fragmenta." },
+    { "name": "Cenozoico", "period": "66 mi anos — Hoje", "color": "#2a6b8a", "icon": "🧬", "desc": "Era dos mamíferos, evolução humana." }
+  ],
+  "knowledge": [
+    { "icon": "🪨", "title": "Minerais", "tag": "Geologia", "desc": "Cada mineral carrega a assinatura química do ambiente em que se formou." },
+    { "icon": "🏔️", "title": "Rochas Sedimentares", "tag": "Petrologia", "desc": "Formadas pela compactação de sedimentos ao longo de milhões de anos." },
+    { "icon": "🔥", "title": "Rochas Ígneas", "tag": "Vulcanologia", "desc": "Cristalizam a partir do magma resfriado." },
+    { "icon": "⚡", "title": "Engenharia Premium", "tag": "Engenharia", "desc": "Assim como a Ferrari, a engenharia geológica aplica ciência dos materiais." },
+    { "icon": "🔬", "title": "Cristalografia", "tag": "Química", "desc": "Diamante e grafite: mesma fórmula, estruturas opostas." },
+    { "icon": "🧭", "title": "Deriva Continental", "tag": "Geofísica", "desc": "Placas tectônicas derivam sobre o manto a 2-15 cm/ano." }
+  ],
+  "metrics": [
+    { "label": "Placas Tectônicas Ativas", "value": 15, "unit": "placas", "color": "#e8702a", "icon": "🌍", "trend": "stable" },
+    { "label": "Terremotos (24h)", "value": 47, "unit": "eventos", "color": "#ef4444", "icon": "🌊", "trend": "up" },
+    { "label": "Temperatura Média", "value": 14.8, "unit": "°C", "color": "#f59e0b", "icon": "🌡️", "trend": "up" },
+    { "label": "Vulcões Ativos", "value": 38, "unit": "vulcões", "color": "#dc2626", "icon": "🌋", "trend": "stable" },
+    { "label": "Cobertura de Gelo", "value": 68, "unit": "%", "color": "#38bdf8", "icon": "🧊", "trend": "down" },
+    { "label": "CO₂ Atmosférico", "value": 421, "unit": "ppm", "color": "#a3e635", "icon": "💨", "trend": "up" },
+    { "label": "Campo Magnético", "value": 25.6, "unit": "μT", "color": "#818cf8", "icon": "🧲", "trend": "down" },
+    { "label": "Nível do Mar", "value": 3.7, "unit": "mm/ano", "color": "#06b6d4", "icon": "🌊", "trend": "up" }
+  ],
+  "layers": [
+    { "name": "Crosta", "depth": "0–35 km", "color": "#4a6b4a", "radius": 2.0, "desc": "Camada sólida externa onde vivemos." },
+    { "name": "Manto", "depth": "35–2.890 km", "color": "#c45a2c", "radius": 1.72, "desc": "Rocha silicatada quente que move as placas." },
+    { "name": "Núcleo Externo", "depth": "2.890–5.150 km", "color": "#d4a017", "radius": 1.2, "desc": "Ferro e níquel líquido. Gera o campo magnético." },
+    { "name": "Núcleo Interno", "depth": "5.150–6.371 km", "color": "#e8702a", "radius": 0.65, "desc": "Esfera sólida de ferro-níquel." }
+  ]
+}
